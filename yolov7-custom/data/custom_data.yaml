@@ -1,0 +1,12 @@
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./data/train # 118287 images
+val: ./data/val  # 5000 images
+test: ./data/test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 38
+
+# class names
+names: ['Double_bend_right', ' No_right_turn', ' No_u_turn', ' Speed_limit_30km', ' Speed_limit_40km', ' Speed_limit_50km', ' Speed_limit_60km', ' Speed_limit_70km', ' Speed_limit_80km', ' Speed_limit_90km', ' Traffic_light_red', ' accident', ' ambulance', ' bicycle', ' bus', ' car', ' car-accident', ' crosswalk', ' cyclo', ' double_bend_right', ' excavator', ' fork_road', ' green_traffic_light', ' licence', ' motorcycle', ' narrow_road', ' no_entry', ' no_left_turn', ' no_right_turn', ' no_u_turn', ' parking_sign', ' person', ' red_traffic_light', ' rudimentary_vehicle', ' speed_limit_30km', ' speed_limit_40km', ' speed_limit_50km', ' truck']
